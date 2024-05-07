@@ -28,8 +28,11 @@ base2 <- rbind(base1 %>%
   filter(!age %in% c("12-14", "50+")) %>% 
   select(-age2)
 
+<<<<<<< HEAD
 # brass estimate infant mortality using parameters available in tools for demographic estimation ----
 
+=======
+>>>>>>> bf8a54625b31d3a8ed2d814eb3410a8f2e14e466
 
 child_brass <- function(base, census.date, coef.family, mlt.family){
   
